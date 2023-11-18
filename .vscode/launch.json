@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+          "name": "Jest Tests",
+          "type": "node",
+          "request": "launch",
+          "runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node_modules/jest/bin/jest.js"],
+          "args": ["--runInBand", "-t", ""],
+          "cwd": "${workspaceRoot}",
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen",
+          "outputCapture": "std",
+          "sourceMaps": true,
+          "smartStep": true
+        },
+
+    ]
+}
