@@ -293,7 +293,7 @@ def resolveSentryReactNativeSDKPath(reactRoot) {
     try {
         resolvedSentryPath = new File(["node", "--print", "require.resolve('@sentry/react-native/package.json')"].execute(null, rootDir).text.trim()).getParentFile();
     } catch (Throwable ignored) {} // if the resolve fails we fallback to the default path
-    def sentryPackage = resolvedSentryPath != null && resolvedSentryPath.exists() ? resolvedSentryPath.getAbsolutePath() : "$reactRoot/node_modules/@sentry/react-native"
+    def sentryPackage = resolvedSentryPath != null && resolvedSentryPath.exists() ? resolvedSentryPath.getAbsolutePath() : "$reactRoot/node_modules/@lsentry/react-native"
     return sentryPackage
 }
 

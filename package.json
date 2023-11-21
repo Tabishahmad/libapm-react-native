@@ -1,8 +1,8 @@
 {
   "name": "@libapm1/react-native",
-  "homepage": "https://github.com/Tabishahmad/libapm-react-native",
-  "repository": "https://github.com/Tabishahmad/libapm-react-native",
-  "version": "5.13.5",
+  "homepage": "https://github.com/getsentry/sentry-react-native",
+  "repository": "https://github.com/getsentry/sentry-react-native",
+  "version": "5.13.6",
   "description": "Official Sentry SDK for react-native",
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
