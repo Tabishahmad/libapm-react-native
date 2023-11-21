@@ -1,12 +1,9 @@
 {
   "name": "@libapm1/react-native",
   "homepage": "https://github.com/Tabishahmad/libapm-react-native",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tabishahmad/libapm-react-native.git"
-  },
-  "version": "5.13.4",
-  "description": "Official Lipapm SDK for react-native",
+  "repository": "https://github.com/Tabishahmad/libapm-react-native",
+  "version": "5.13.5",
+  "description": "Official Sentry SDK for react-native",
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
   "typesVersions": {
@@ -61,20 +58,20 @@
     "react-native": ">=0.65.0"
   },
   "dependencies": {
-    "@sentry/browser": "7.80.0",
+    "@sentry/browser": "7.81.1",
     "@sentry/cli": "2.21.3",
-    "@sentry/core": "7.80.0",
-    "@sentry/hub": "7.80.0",
-    "@sentry/integrations": "7.80.0",
-    "@sentry/react": "7.80.0",
-    "@sentry/types": "7.80.0",
-    "@sentry/utils": "7.80.0"
+    "@sentry/core": "7.81.1",
+    "@sentry/hub": "7.81.1",
+    "@sentry/integrations": "7.81.1",
+    "@sentry/react": "7.81.1",
+    "@sentry/types": "7.81.1",
+    "@sentry/utils": "7.81.1"
   },
   "devDependencies": {
-    "@sentry-internal/eslint-config-sdk": "7.80.0",
-    "@sentry-internal/eslint-plugin-sdk": "7.80.0",
+    "@sentry-internal/eslint-config-sdk": "7.81.1",
+    "@sentry-internal/eslint-plugin-sdk": "7.81.1",
     "@sentry/typescript": "^5.20.1",
-    "@libapm1/wizard": "3.16.6",
+    "@sentry/wizard": "3.16.3",
     "@types/jest": "^29.5.3",
     "@types/react": "^18.2.14",
     "@types/uglify-js": "^3.17.2",
@@ -112,11 +109,5 @@
     "android": {
       "javaPackageName": "io.sentry.react"
     }
-  },
-  "bugs": {
-    "url": "https://github.com/Tabishahmad/libapm-react-native/issues"
-  },
-  "directories": {
-    "test": "test"
   }
 }

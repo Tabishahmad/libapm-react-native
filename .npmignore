@@ -6,12 +6,12 @@
 !README.md
 !/dist/**/*
 !ts3.8/**/*
-!sample-new-architecture/**/*
 !RNSentry.podspec
 !sentry.gradle
 !react-native.config.js
 !/ios/**/*
 !/android/**/*
+!/sample-new-architecture/**/*
 !src/js/NativeRNSentry.ts
 !scripts/collect-modules.sh
 !scripts/copy-debugid.js

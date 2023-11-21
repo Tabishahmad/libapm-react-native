@@ -6,5 +6,5 @@ targets:
   - name: github
   - name: registry
     sdks:
-      npm:@libapm1/react-native:
+      npm:@sentry/react-native:
         includeNames: /none/
