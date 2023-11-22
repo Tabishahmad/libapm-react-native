@@ -1,9 +1,9 @@
 {
-  "name": "@libapm1/react-native",
-  "homepage": "https://github.com/getsentry/sentry-react-native",
-  "repository": "https://github.com/getsentry/sentry-react-native",
-  "version": "5.13.8",
-  "description": "Official Sentry SDK for react-native",
+  "name": "@liapm/react-native",
+  "homepage": "https://github.com/Tabishahmad/libapm-react-native",
+  "repository": "https://github.com/Tabishahmad/libapm-react-native",
+  "version": "5.13.10",
+  "description": "Official libapm SDK for react-native",
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
   "typesVersions": {
@@ -36,7 +36,7 @@
     "test:watch": "jest --watch",
     "run-ios": "cd sample-new-architecture && yarn react-native run-ios",
     "run-android": "cd sample-new-architecture && yarn react-native run-android",
-    "yalc:add:sentry-javascript": "yalc add @sentry/browser @sentry/core @sentry/hub @sentry/integrations @sentry/react @sentry/types @sentry/utils"
+    "yalc:add:sentry-javascript": "yalc add @sentry/browser @sentry/core @sentry/hub @sentry/integrations @sentry/react @sentry/react-native @sentry/types @sentry/utils"
   },
   "keywords": [
     "react-native",
