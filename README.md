@@ -1,12 +1,3 @@
-<p align="center">
-  <a href="https://ibb.co/VtzD6Zh" target="_blank">
-    <picture>
-      <source srcset="https://ibb.co/VtzD6Zh" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://ibb.co/VtzD6Zh" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img src="https://ibb.co/VtzD6Zh" alt="Sentry" width="280">
-    </picture>
-  </a>
-</p>
 
 _Bad software is everywhere, and we're tired of it. Libapm is on a mission to help developers write better software faster, so we can get back to enjoying technology
 
@@ -26,7 +17,7 @@ _Bad software is everywhere, and we're tired of it. Libapm is on a mission to he
 To install the package and setup your project:
 
 ```sh
-npx @libapm1/react-native
+npm install @libapm1/react-native
 ```
 
 How to use it:

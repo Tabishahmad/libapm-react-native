@@ -2,7 +2,7 @@
   "name": "@libapm1/react-native",
   "homepage": "https://github.com/Tabishahmad/libapm-react-native",
   "repository": "https://github.com/Tabishahmad/libapm-react-native",
-  "version": "5.13.11",
+  "version": "5.13.12",
   "description": "Official libapm SDK for react-native",
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
@@ -39,7 +39,7 @@
     "yalc:add:sentry-javascript": "yalc add @sentry/browser @sentry/core @sentry/hub @sentry/integrations @sentry/react @sentry/react-native @sentry/types @sentry/utils"
   },
   "keywords": [
-    "libapm",
+    "libapm"
   ],
   "publishConfig": {
     "access": "public"
